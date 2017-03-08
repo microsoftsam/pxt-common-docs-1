@@ -11,7 +11,7 @@ while(true) {
 The while loop has ...
 
 
-{% block pageContent %}
+{% block example1 %}
 ```blocks
 input.onButtonPressed(Button.A, () => {
     let index = 4;
