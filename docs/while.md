@@ -11,6 +11,7 @@ while(true) {
 The while loop has ...
 
 
+{% block pageContent %}
 ```blocks
 input.onButtonPressed(Button.A, () => {
     let index = 4;
@@ -20,3 +21,5 @@ input.onButtonPressed(Button.A, () => {
     }
 })
 ```
+{% endblock %}
+
